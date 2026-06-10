@@ -30,3 +30,5 @@ RUN apt-get update \
       texlive-fonts-recommended \
       texlive-plain-generic \
  && rm -rf /var/lib/apt/lists/*
+
+RUN R -e "install.packages('renv')"
