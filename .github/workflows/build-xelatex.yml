@@ -2,7 +2,7 @@ name: Build rmd-xelatex image
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
     paths:
       - 'xelatex/Dockerfile'
       - '.github/workflows/build-xelatex.yml'
